@@ -1,0 +1,20 @@
+# Always use LF line endings in all text files
+* text eol=lf
+
+# Ensure Python scripts use LF
+*.py text eol=lf
+
+# Ensure notebooks use LF
+*.ipynb text eol=lf
+
+# Ensure data files use LF
+*.csv text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+
+# Keep images and binaries untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pkl binary
+*.zip binary
